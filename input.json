@@ -1,0 +1,44 @@
+[
+  {
+    "name": "BookOne",
+    "price": 5.99,
+    "author": "authorOne",
+    "category": "Computers"
+  },
+  {
+    "name": "BookTwo",
+    "price": 6.99,
+    "author": "authorTwo",
+    "category": "Science"
+  },
+  {
+    "name": "BookThree",
+    "price": 7.99,
+    "author": "authorThree",
+    "category": "Comics"
+  },
+  {
+    "name": "BookFour",
+    "price": 8.99,
+    "author": "authorFour",
+    "category": "Action and Adventure"
+  },
+  {
+    "name": "BookFive",
+    "price": 9.99,
+    "author": "authorFive",
+    "category": "Computers"
+  },
+  {
+    "name": "BookSix",
+    "price": 10.99,
+    "author": "authorSix",
+    "category": "Computers"
+  },
+  {
+    "name": "BookSeven",
+    "price": 11.99,
+    "author": "authorSeven",
+    "category": "Comics"
+  }
+]
