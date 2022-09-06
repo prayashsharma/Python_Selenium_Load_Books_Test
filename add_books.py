@@ -7,25 +7,6 @@ from selenium.webdriver.common.desired_capabilities import DesiredCapabilities
 
 
 def add_books_using_chrome_browser(base_url, book):
-    # options = webdriver.ChromeOptions()
-    # options.add_argument("--no-sandbox")
-    # options.add_argument("--remote-debugging-port=9222")
-    # options.headless = True
-    # command_executor = "http://chrome:4444/wd/hub"
-    # driver = webdriver.Remote(
-    #     command_executor, desired_capabilities=DesiredCapabilities.CHROME)
-
-    # # chrome_options.add_argument("--no-sandbox")
-    # # chrome_options.add_argument("--headless")
-    # # chrome_options.add_argument("window-size=1400,2100")
-    # # chrome_options.add_argument("--disable-gpu")
-
-    # # driver = webdriver.Chrome(chrome_options=chrome_options)
-    # # driver = webdriver.Chrome(service=Service(ChromeDriverManager().install()))
-    # driver = webdriver.Chrome(
-    #     ChromeDriverManager().install(), options=chrome_options)
-
-    options = Options
     driver = webdriver.Chrome(service=Service(ChromeDriverManager().install()))
     driver.maximize_window()
     driver.implicitly_wait(10)
